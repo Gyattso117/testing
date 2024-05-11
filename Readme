@@ -1,0 +1,37 @@
+FAFO test-evn. 
+
+# Clone a repository
+git clone <repository_url>
+
+# Add files to staging area
+git add <file_name>
+
+# Commit changes
+git commit -m "Commit message"
+
+# Push changes to a remote repository (usually GitHub)
+git push <remote_name> <branch_name>
+
+# Pull changes from a remote repository
+git pull <remote_name> <branch_name>
+
+# Create a new branch
+git checkout -b <branch_name>
+
+# Switch to an existing branch
+git checkout <branch_name>
+
+# Merge branches
+git merge <branch_name>
+
+# View status
+git status
+
+# View commit history
+git log
+
+# Fetch changes from a remote repository
+git fetch <remote_name>
+
+# Create a new repository on GitHub
+gh repo create <repository_name>
